@@ -4,6 +4,8 @@ import torchvision.transforms as transforms
 from PIL import Image
 from torchvision.models import resnet18
 from torchvision import models
+from simple_cnn import SimpleCNN
+
 
 # Load the pretrained ResNet-18 model
 model = models.resnet18(pretrained=True)
