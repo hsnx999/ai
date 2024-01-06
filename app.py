@@ -4,7 +4,7 @@ from PIL import Image
 from torchvision import models, transforms
 import torch
 import streamlit as st
-from models
+from model_train
 
 # set title of app
 st.title("Simple Image Classification Application")
